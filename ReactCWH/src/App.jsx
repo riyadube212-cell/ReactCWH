@@ -3,6 +3,7 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import Navbar from './components/Navbar';
 
 let name="Riya Dubey";
 function App() {
@@ -11,6 +12,8 @@ function App() {
   <div className="blank">Riya Dubey
     <h1>Hi {name}</h1>
   </div>
+  <Navbar/>
+  
 </>
 //   const [count, setCount] = useState(0)
 
