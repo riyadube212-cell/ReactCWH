@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar';
+import TextForm from './components/TextForm'
 
 // let name="Riya Dubey";
 // function App() {
@@ -21,13 +22,16 @@ import Navbar from './components/Navbar';
 
 function App(){
   return(
-<div>
+<>
   <Navbar
   title="My website"
   home="Home"
   about="About"
   />
+  <div className='container'>
+  <TextForm/>
 </div>
+</>
   );
 }
 export default App
