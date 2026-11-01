@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm'
+import About from './components/About'
 
 // let name="Riya Dubey";
 // function App() {
@@ -29,8 +30,8 @@ function App(){
   about="About"
   />
   <div className='container'>
-  <TextForm heading ="Enter the text"/>
- 
+  {/* <TextForm heading ="Enter the text"/> */}
+ <About></About>
 </div>
 </>
   );
